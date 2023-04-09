@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.li-edit {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.p-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 30%;
+}
+
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.delete-button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  margin-right: 24px;
+  outline: none;
+}

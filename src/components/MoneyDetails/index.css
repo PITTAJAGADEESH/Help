@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.mid-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  width: 30%;
+  margin-right: 0px;
+}
+
+.img-edit {
+  width: 64px;
+  height: 64px;
+  margin: 24px;
+}
+
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  width: 30%;
+  margin-right: 0px;
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  min-width: 200px;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  width: 30%;
+  margin-right: 0px;
+}
+
+.details-text {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.details-money {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  line-height: 1.3;
+  margin: 0px;
+}
